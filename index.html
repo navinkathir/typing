@@ -2,34 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Simple Search Form</title>
+  <title>Welcome Page</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 50px;
-      background-color: #f4f4f4;
+      background-color: #e0f7fa;
       text-align: center;
     }
-    input[type="text"] {
-      padding: 10px;
-      width: 300px;
-      font-size: 16px;
+    a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #00796b;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      margin-top: 20px;
     }
-    input[type="submit"] {
-      padding: 10px 20px;
-      font-size: 16px;
-      margin-left: 10px;
-      cursor: pointer;
+    a:hover {
+      background-color: #004d40;
     }
   </style>
 </head>
 <body>
 
-  <h1>Search Page</h1>
-  <form action="https://formspree.io/f/myzdbjgq" method="POST">
-    <input type="text" name="search" placeholder="Type your query here" required>
-    <input type="submit" value="Submit">
-  </form>
+  <h1>Welcome to My Site</h1>
+  <p>Click below to go to the search page:</p>
+  <a href="search.html">Go to Search</a>
 
 </body>
 </html>
